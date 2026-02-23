@@ -23,9 +23,18 @@ export function Footer() {
                 </span>
               </span>
             </Link>
-            <p className="mt-4 text-sm leading-relaxed text-white/35 max-w-xs">
+            <p className="mt-4 text-sm leading-relaxed text-white/50 max-w-xs">
               India&apos;s loan marketplace. Compare offers from 30+ verified
               lenders and get the best rate. Free, transparent, no spam.
+            </p>
+            <p className="mt-2 text-xs text-white/50">
+              Contact:{" "}
+              <a
+                href="mailto:support@credrace.com"
+                className="text-white/50 hover:text-emerald-400 transition-colors"
+              >
+                support@credrace.com
+              </a>
             </p>
 
             {/* Trust badges */}
@@ -37,7 +46,7 @@ export function Footer() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="flex items-center gap-1.5 text-white/20"
+                  className="flex items-center gap-1.5 text-white/40"
                 >
                   <item.icon className="h-3 w-3" />
                   <span className="text-[11px] font-medium">{item.label}</span>
@@ -48,7 +57,7 @@ export function Footer() {
 
           {/* Products */}
           <div>
-            <p className="text-xs font-semibold text-white/50 uppercase tracking-wider mb-5">
+            <p className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-5">
               Products
             </p>
             <ul className="space-y-3">
@@ -56,7 +65,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/40 hover:text-emerald-400 transition-colors duration-200"
+                    className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -65,7 +74,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/eligibility"
-                  className="text-sm text-white/40 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
                 >
                   Business Loan
                 </Link>
@@ -75,14 +84,14 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <p className="text-xs font-semibold text-white/50 uppercase tracking-wider mb-5">
+            <p className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-5">
               Company
             </p>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="/eligibility"
-                  className="text-sm text-white/40 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
                 >
                   Check Eligibility
                 </Link>
@@ -90,7 +99,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/#how-it-works"
-                  className="text-sm text-white/40 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
                 >
                   How It Works
                 </Link>
@@ -98,7 +107,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/#faq"
-                  className="text-sm text-white/40 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
                 >
                   FAQs
                 </Link>
@@ -108,24 +117,33 @@ export function Footer() {
 
           {/* Legal */}
           <div className="col-span-2 sm:col-span-1">
-            <p className="text-xs font-semibold text-white/50 uppercase tracking-wider mb-5">
+            <p className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-5">
               Legal
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-3 sm:block sm:space-y-3">
               <li>
-                <span className="text-sm text-white/40 cursor-default">
+                <Link
+                  href="/privacy"
+                  className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
+                >
                   Privacy Policy
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm text-white/40 cursor-default">
+                <Link
+                  href="/terms"
+                  className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
+                >
                   Terms of Service
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm text-white/40 cursor-default">
+                <Link
+                  href="/grievance"
+                  className="text-sm text-white/60 hover:text-emerald-400 transition-colors duration-200"
+                >
                   Grievance Redressal
-                </span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -134,12 +152,12 @@ export function Footer() {
         {/* ─── Bottom bar ─── */}
         <div className="border-t border-white/[0.06] py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-white/20 text-center sm:text-left">
+            <p className="text-xs text-white/40 text-center sm:text-left">
               &copy; {new Date().getFullYear()} {SITE_NAME}. All rights
               reserved. {SITE_NAME} is a loan marketplace and does not lend
               directly.
             </p>
-            <p className="text-[11px] text-white/15 text-center sm:text-right max-w-sm">
+            <p className="text-[11px] text-white/30 text-center sm:text-right max-w-sm">
               Loan approval, amounts, and interest rates are subject to the
               lending partner&apos;s policies and borrower eligibility.
             </p>

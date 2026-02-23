@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan gachibowli rates",
     "gachibowli home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/gachibowli` },
   openGraph: {
     title: "Home Loan in Gachibowli Hyderabad | Credrace",
     description: "Home loan in Gachibowli, Hyderabad. Rates from 8.25%, compare 30+ banks.",

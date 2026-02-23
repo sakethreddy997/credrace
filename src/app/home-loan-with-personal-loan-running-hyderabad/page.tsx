@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan personal loan together hyderabad",
     "home loan active personal loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-with-personal-loan-running-hyderabad` },
   openGraph: {
     title: "Home Loan with Personal Loan Running Hyderabad | Credrace",
     description: "Home loan with personal loan running in Hyderabad. Get home loan even with active personal loan.",

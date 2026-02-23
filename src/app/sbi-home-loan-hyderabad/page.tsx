@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "SBI home loan rates hyderabad",
     "State Bank of India home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/sbi-home-loan-hyderabad` },
   openGraph: {
     title: "SBI Home Loan in Hyderabad | Credrace",
     description: "SBI home loan in Hyderabad. Rates from 8.25%, up to ₹5 Cr. Compare with other banks.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan without documents hyderabad",
     "home loan for business owners hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-hyderabad-without-salary-slip` },
   openGraph: {
     title: "Home Loan Without Salary Slip in Hyderabad | Credrace",
     description: "Home loan in Hyderabad without salary slip. Options for self-employed and business owners.",

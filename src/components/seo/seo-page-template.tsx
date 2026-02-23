@@ -23,7 +23,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { FAQSchema, WebPageSchema } from "@/components/json-ld";
+import { BreadcrumbSchema, FAQSchema, WebPageSchema } from "@/components/json-ld";
 
 interface SEOPageData {
   // Meta
@@ -74,8 +74,13 @@ function fadeUp(delay: number = 0) {
 }
 
 export function SEOPageTemplate({ data }: { data: SEOPageData }) {
+  const breadcrumbItems = [
+    { name: "Home", url: "/" },
+    { name: data.heroHeadline, url: data.url },
+  ];
   return (
     <>
+      <BreadcrumbSchema items={breadcrumbItems} />
       <WebPageSchema title={data.title} description={data.description} url={data.url} />
       <FAQSchema faqs={data.faqs} />
 

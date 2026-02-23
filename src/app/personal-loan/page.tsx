@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { ProductPageTemplate } from "@/components/product/product-page-template";
-import { FAQSchema, WebPageSchema } from "@/components/json-ld";
+import { BreadcrumbSchema, FAQSchema, LoanOrCreditSchema, WebPageSchema } from "@/components/json-ld";
 import type { ProductPageData } from "@/components/product/product-page-template";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Personal Loan at Low Interest | Quick Approval | Credrace",
   description:
     "Get a personal loan up to ₹40 Lakh with rates starting 10.25%. Instant approval, minimal docs, and fast disbursal from India's top banks on Credrace.",
+  alternates: { canonical: `${SITE_URL}/personal-loan` },
   openGraph: {
     title: "Personal Loan at Low Interest | Credrace",
     description:
@@ -96,6 +98,21 @@ const personalLoanData: ProductPageData = {
 export default function PersonalLoanPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Personal Loan", url: "/personal-loan" },
+        ]}
+      />
+      <LoanOrCreditSchema
+        name="Personal Loan"
+        description="Get a personal loan up to ₹40 Lakh with rates from 10.25%. Instant approval."
+        url="/personal-loan"
+        amount={4000000}
+        interestRate={10.25}
+        loanTermValue={5}
+        loanTermUnit="years"
+      />
       <WebPageSchema
         title="Personal Loan at Low Interest | Quick Approval"
         description="Get a personal loan up to ₹40 Lakh with rates from 10.25%. Instant approval."

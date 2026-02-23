@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "calculate home loan interest hyderabad",
     "total interest home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-interest-calculator-hyderabad` },
   openGraph: {
     title: "Home Loan Interest Calculator Hyderabad | Credrace",
     description: "Free home loan interest calculator for Hyderabad. Calculate total interest instantly.",

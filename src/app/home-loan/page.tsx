@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { ProductPageTemplate } from "@/components/product/product-page-template";
-import { FAQSchema, WebPageSchema } from "@/components/json-ld";
+import { BreadcrumbSchema, FAQSchema, LoanOrCreditSchema, WebPageSchema } from "@/components/json-ld";
 import type { ProductPageData } from "@/components/product/product-page-template";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Home Loan at Best Rates in India | Compare 30+ Banks | Credrace",
   description:
     "Compare home loan offers from 30+ banks and NBFCs. Interest rates starting 8.25%, loan up to 5 Cr, tenure up to 30 years. Check eligibility instantly on Credrace.",
+  alternates: { canonical: `${SITE_URL}/home-loan` },
   openGraph: {
     title: "Home Loan at Best Rates | Credrace",
     description:
@@ -96,6 +98,21 @@ const homeLoanData: ProductPageData = {
 export default function HomeLoanPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Home Loan", url: "/home-loan" },
+        ]}
+      />
+      <LoanOrCreditSchema
+        name="Home Loan"
+        description="Compare home loan offers from 30+ banks. Rates from 8.25%, up to ₹5 Cr."
+        url="/home-loan"
+        amount={50000000}
+        interestRate={8.25}
+        loanTermValue={30}
+        loanTermUnit="years"
+      />
       <WebPageSchema
         title="Home Loan at Best Rates in India"
         description="Compare home loan offers from 30+ banks. Rates from 8.25%, up to ₹5 Cr."

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan reapplication hyderabad",
     "home loan apply again after rejection hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-reapply-after-rejection-hyderabad` },
   openGraph: {
     title: "Home Loan Reapply After Rejection Hyderabad | Credrace",
     description: "Home loan reapply after rejection in Hyderabad. How to reapply and get approved.",

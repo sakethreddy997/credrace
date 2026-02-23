@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "minimum income for home loan hyderabad",
     "home loan salary criteria hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/minimum-salary-for-home-loan-hyderabad` },
   openGraph: {
     title: "Minimum Salary for Home Loan Hyderabad | Credrace",
     description: "Minimum salary for home loan in Hyderabad. Know salary requirements by loan amount.",

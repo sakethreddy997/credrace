@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan eligibility check hyderabad",
     "how much home loan can i get hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-eligibility-hyderabad` },
   openGraph: {
     title: "Home Loan Eligibility in Hyderabad | Credrace",
     description: "Check home loan eligibility in Hyderabad. Calculate eligible amount instantly. No CIBIL impact.",

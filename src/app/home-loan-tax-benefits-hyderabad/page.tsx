@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "section 80c home loan hyderabad",
     "section 24b home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-tax-benefits-hyderabad` },
   openGraph: {
     title: "Home Loan Tax Benefits Hyderabad | Credrace",
     description: "Home loan tax benefits in Hyderabad. Save up to ₹2 Lakh per year in taxes.",

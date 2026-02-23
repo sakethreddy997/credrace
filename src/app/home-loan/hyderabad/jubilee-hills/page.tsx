@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan jubilee hills rates",
     "jubilee hills home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/jubilee-hills` },
   openGraph: {
     title: "Home Loan in Jubilee Hills Hyderabad | Credrace",
     description: "Home loan in Jubilee Hills, Hyderabad. Premium area, rates from 8.25%.",

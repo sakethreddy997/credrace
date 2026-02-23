@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan miyapur rates",
     "miyapur home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/miyapur` },
   openGraph: {
     title: "Home Loan in Miyapur Hyderabad | Credrace",
     description: "Home loan in Miyapur, Hyderabad. Growing area, rates from 8.25%.",

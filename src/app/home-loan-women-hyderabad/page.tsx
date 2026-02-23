@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan women special rate hyderabad",
     "concessional home loan women hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-women-hyderabad` },
   openGraph: {
     title: "Home Loan for Women Hyderabad | Credrace",
     description: "Home loan for women in Hyderabad. Special rates, lower fees. Compare 30+ banks.",

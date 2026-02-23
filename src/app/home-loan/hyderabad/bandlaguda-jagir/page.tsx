@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan bandlaguda jagir rates",
     "bandlaguda jagir home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/bandlaguda-jagir` },
   openGraph: {
     title: "Home Loan in Bandlaguda Jagir Hyderabad | Credrace",
     description: "Home loan in Bandlaguda Jagir, Hyderabad. Affordable area, rates from 8.25%.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan after settlement hyderabad",
     "home loan after loan write off hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-after-loan-settlement-hyderabad` },
   openGraph: {
     title: "Home Loan After Loan Settlement Hyderabad | Credrace",
     description: "Home loan after loan settlement in Hyderabad. Get home loan after settling previous loans.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "government employee home loan hyderabad",
     "home loan for government servants hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-government-employees-hyderabad` },
   openGraph: {
     title: "Home Loan for Government Employees Hyderabad | Credrace",
     description: "Home loan for government employees in Hyderabad. Special rates, quick approval.",

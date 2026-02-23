@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "startup founder home loan hyderabad",
     "entrepreneur home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-startup-founders-hyderabad` },
   openGraph: {
     title: "Home Loan for Startup Founders Hyderabad | Credrace",
     description: "Home loan for startup founders in Hyderabad. ITR-based income, flexible eligibility.",

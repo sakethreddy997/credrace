@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "HDFC home loan rates hyderabad",
     "HDFC home loan interest rate hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/hdfc-home-loan-hyderabad` },
   openGraph: {
     title: "HDFC Home Loan in Hyderabad | Credrace",
     description: "HDFC home loan in Hyderabad. Rates from 8.35%, up to ₹5 Cr. Compare with other banks.",

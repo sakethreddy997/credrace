@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "ICICI home loan rates hyderabad",
     "ICICI home loan interest rate hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/icici-home-loan-hyderabad` },
   openGraph: {
     title: "ICICI Home Loan in Hyderabad | Credrace",
     description: "ICICI home loan in Hyderabad. Rates from 8.40%, up to ₹5 Cr. Compare with other banks.",

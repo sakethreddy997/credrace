@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan financial district rates",
     "financial district home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/financial-district` },
   openGraph: {
     title: "Home Loan in Financial District Hyderabad | Credrace",
     description: "Home loan in Financial District, Hyderabad. Premium area, rates from 8.25%.",

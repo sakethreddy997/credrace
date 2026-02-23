@@ -48,7 +48,7 @@ const stats = [
   },
 ];
 
-/* ─── Lenders ─── */
+/* ─── Lenders (8 for smaller DOM; marquee still duplicates for seamless loop) ─── */
 const lenders = [
   "SBI",
   "HDFC Bank",
@@ -58,10 +58,6 @@ const lenders = [
   "Bajaj Finserv",
   "Tata Capital",
   "LIC HFL",
-  "PNB Housing",
-  "IDFC First",
-  "IndusInd",
-  "Federal Bank",
 ];
 
 /* ─── Animated counter ─── */

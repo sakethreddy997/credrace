@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "LIC home loan hyderabad",
     "LIC housing finance rates hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/lic-hfl-home-loan-hyderabad` },
   openGraph: {
     title: "LIC Housing Finance Home Loan in Hyderabad | Credrace",
     description: "LIC Housing Finance home loan in Hyderabad. Rates from 8.30%, up to ₹5 Cr.",

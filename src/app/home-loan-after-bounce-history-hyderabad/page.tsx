@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan after emi bounce hyderabad",
     "home loan post bounce hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-after-bounce-history-hyderabad` },
   openGraph: {
     title: "Home Loan After Bounce History Hyderabad | Credrace",
     description: "Home loan after bounce history in Hyderabad. Get home loan after cheque/EMI bounces.",

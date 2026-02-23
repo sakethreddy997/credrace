@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan refinancing hyderabad",
     "balance transfer home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-balance-transfer-hyderabad` },
   openGraph: {
     title: "Home Loan Balance Transfer Hyderabad | Credrace",
     description: "Transfer home loan to lower rate in Hyderabad. Save lakhs. Compare 30+ banks.",

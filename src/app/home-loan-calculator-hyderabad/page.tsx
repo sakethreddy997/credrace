@@ -3,7 +3,7 @@ import { SEOPageTemplate } from "@/components/seo/seo-page-template";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Home Loan Calculator Hyderabad | EMI Calculator | Interest Calculator | Credrace",
+  title: "Home Loan Calculator Hyderabad | EMI & Interest | Credrace",
   description:
     "Free home loan calculator for Hyderabad. Calculate EMI, interest, total amount, eligibility. Compare loan offers from 30+ banks. Instant results, no registration required. Use Credrace calculator.",
   keywords: [
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan interest calculator hyderabad",
     "housing loan calculator hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-calculator-hyderabad` },
   openGraph: {
     title: "Home Loan Calculator Hyderabad | Credrace",
     description: "Free home loan calculator for Hyderabad. Calculate EMI, interest, eligibility instantly.",
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 };
 
 const pageData = {
-  title: "Home Loan Calculator Hyderabad | EMI Calculator | Interest Calculator | Credrace",
+  title: "Home Loan Calculator Hyderabad | EMI & Interest | Credrace",
   description:
     "Free home loan calculator for Hyderabad. Calculate EMI, interest, total amount, eligibility. Compare loan offers from 30+ banks.",
   url: "/home-loan-calculator-hyderabad",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "gated community loan hyderabad",
     "home loan gated community hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-gated-community-hyderabad` },
   openGraph: {
     title: "Home Loan for Gated Community Hyderabad | Credrace",
     description: "Home loan for gated community in Hyderabad. Gated community home loan eligibility, LTV norms.",

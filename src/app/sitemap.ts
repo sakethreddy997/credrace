@@ -22,6 +22,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   entries.push({
+    url: `${SITE_URL}/war-room`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.9,
+  });
+
+  entries.push({
+    url: `${SITE_URL}/why-we-exist`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.9,
+  });
+
+  entries.push({
     url: `${SITE_URL}/home-loan`,
     lastModified: now,
     changeFrequency: "weekly",
@@ -40,6 +54,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: "weekly",
     priority: 0.8,
+  });
+
+  entries.push({
+    url: `${SITE_URL}/privacy`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: 0.5,
+  });
+  entries.push({
+    url: `${SITE_URL}/terms`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: 0.5,
+  });
+  entries.push({
+    url: `${SITE_URL}/grievance`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: 0.5,
   });
 
   // ─── Phase 1: SEO Pages (Hyderabad Focus) ───

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan incomplete property hyderabad",
     "home loan new construction hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-under-construction-hyderabad` },
   openGraph: {
     title: "Home Loan for Under-construction Property Hyderabad | Credrace",
     description: "Home loan for under-construction property in Hyderabad. Staged disbursement. Compare 30+ banks.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "in principle home loan approval hyderabad",
     "home loan pre sanction hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-pre-approval-hyderabad` },
   openGraph: {
     title: "Home Loan Pre-approval Hyderabad | Credrace",
     description: "Get home loan pre-approval in Hyderabad. In-principle approval before property purchase.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan with rental income hyderabad",
     "rental income home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-based-on-rent-income-hyderabad` },
   openGraph: {
     title: "Home Loan Based on Rent Income Hyderabad | Credrace",
     description: "Home loan based on rental income in Hyderabad. Use rental income to increase eligibility.",

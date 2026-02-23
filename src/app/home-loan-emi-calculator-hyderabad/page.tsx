@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan monthly emi calculator hyderabad",
     "housing loan emi calculator hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-emi-calculator-hyderabad` },
   openGraph: {
     title: "Home Loan EMI Calculator Hyderabad | Credrace",
     description: "Free home loan EMI calculator for Hyderabad. Calculate monthly EMI instantly.",

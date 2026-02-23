@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan multiple loans hyderabad",
     "home loan with car loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-eligibility-with-existing-loan-hyderabad` },
   openGraph: {
     title: "Home Loan Eligibility with Existing Loan Hyderabad | Credrace",
     description: "Home loan eligibility with existing loan in Hyderabad. Get home loan even with other loans.",

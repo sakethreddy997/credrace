@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "increase cibil score home loan hyderabad",
     "cibil improvement tips hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/how-to-improve-cibil-for-home-loan-hyderabad` },
   openGraph: {
     title: "How to Improve CIBIL Score for Home Loan Hyderabad | Credrace",
     description: "How to improve CIBIL score for home loan in Hyderabad. Tips to increase CIBIL to 750+.",

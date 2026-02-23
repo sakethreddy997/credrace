@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan with spouse hyderabad",
     "joint home loan application hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/joint-home-loan-hyderabad` },
   openGraph: {
     title: "Joint Home Loan Hyderabad | Credrace",
     description: "Joint home loan in Hyderabad. Apply with co-applicant for higher loan amounts, better rates.",

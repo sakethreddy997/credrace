@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan kismatpur rates",
     "suncity kismatpur home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/suncity-kismatpur` },
   openGraph: {
     title: "Home Loan in Suncity Kismatpur Hyderabad | Credrace",
     description: "Home loan in Suncity Kismatpur, Hyderabad. Affordable area, rates from 8.25%.",

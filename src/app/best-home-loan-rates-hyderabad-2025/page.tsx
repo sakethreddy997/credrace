@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "home loan interest rates hyderabad",
     "cheapest home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/best-home-loan-rates-hyderabad-2025` },
   openGraph: {
     title: "Best Home Loan Rates in Hyderabad 2025 | Credrace",
     description: "Compare best home loan rates in Hyderabad 2025. Rates from 8.25%, updated daily.",

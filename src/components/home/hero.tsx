@@ -159,11 +159,8 @@ export function Hero() {
               </div>
             </motion.div>
 
-            {/* Headline */}
-            <motion.h1
-              variants={fadeUp}
-              className="text-[2.75rem] sm:text-[3.5rem] lg:text-[4.25rem] font-extrabold leading-[1.05] tracking-[-0.035em]"
-            >
+            {/* Headline — static for LCP (no animation delay) */}
+            <h1 className="text-[2.75rem] sm:text-[3.5rem] lg:text-[4.25rem] font-extrabold leading-[1.05] tracking-[-0.035em]">
               <span className="text-white">Your loan.</span>
               <br />
               <span className="relative">
@@ -173,16 +170,13 @@ export function Hero() {
               </span>
               <br />
               <span className="text-white/90">for the best offer.</span>
-            </motion.h1>
+            </h1>
 
-            {/* Subline */}
-            <motion.p
-              variants={fadeUp}
-              className="mt-6 text-lg sm:text-xl text-white/45 leading-relaxed max-w-lg font-normal"
-            >
+            {/* Subline — static for LCP */}
+            <p className="mt-6 text-lg sm:text-xl text-white/45 leading-relaxed max-w-lg font-normal">
               One application. Personalised offers from HDFC, SBI, ICICI and
               27 more. Pick the lowest rate. We handle everything else.
-            </motion.p>
+            </p>
 
             {/* CTA Row */}
             <motion.div
@@ -213,6 +207,14 @@ export function Hero() {
                   Get connected
                 </Button>
               </ConnectModal>
+            </motion.div>
+            <motion.div variants={fadeUp} className="mt-4">
+              <Link
+                href="/why-we-exist"
+                className="text-sm text-white/50 hover:text-emerald-400 transition-colors"
+              >
+                See why we built this
+              </Link>
             </motion.div>
 
             {/* Trust strip */}

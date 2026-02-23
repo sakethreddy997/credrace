@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan for medical professionals hyderabad",
     "physician home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-doctors-hyderabad` },
   openGraph: {
     title: "Home Loan for Doctors Hyderabad | Credrace",
     description: "Home loan for doctors in Hyderabad. Higher loan amounts, better rates, flexible eligibility.",

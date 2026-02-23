@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan process hyderabad",
     "home loan approval process hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-process-hyderabad` },
   openGraph: {
     title: "Home Loan Application Process in Hyderabad | Credrace",
     description: "Step-by-step guide to home loan application process in Hyderabad. Get approved in 5-7 days.",

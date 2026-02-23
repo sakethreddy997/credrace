@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     "home loan eligibility hyderabad",
     "apply home loan online hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-hyderabad` },
   openGraph: {
     title: "Home Loan in Hyderabad | Best Rates | Credrace",
     description: "Compare home loan offers from 30+ banks in Hyderabad. Rates from 8.25%, up to ₹5 Cr.",

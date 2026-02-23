@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "ready property home loan hyderabad",
     "completed property home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-ready-to-move-property-hyderabad` },
   openGraph: {
     title: "Home Loan for Ready to Move Property Hyderabad | Credrace",
     description: "Home loan for ready to move property in Hyderabad. Faster approval, full disbursement.",

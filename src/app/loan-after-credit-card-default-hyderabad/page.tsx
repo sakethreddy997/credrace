@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "personal loan after credit card default hyderabad",
     "loan post credit card default hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/loan-after-credit-card-default-hyderabad` },
   openGraph: {
     title: "Loan After Credit Card Default Hyderabad | Credrace",
     description: "Loan after credit card default in Hyderabad. Get loan after credit card default.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "apartment loan hyderabad",
     "home loan apartment hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-apartment-hyderabad` },
   openGraph: {
     title: "Home Loan for Apartment Hyderabad | Credrace",
     description: "Home loan for apartment in Hyderabad. Apartment home loan eligibility, LTV norms.",

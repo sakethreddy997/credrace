@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "open plot loan hyderabad",
     "home loan plot hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-open-plot-hyderabad` },
   openGraph: {
     title: "Home Loan for Open Plot Hyderabad | Credrace",
     description: "Home loan for open plot in Hyderabad. Plot home loan eligibility, LTV norms.",

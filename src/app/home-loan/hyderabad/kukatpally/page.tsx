@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan kukatpally rates",
     "kukatpally home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/kukatpally` },
   openGraph: {
     title: "Home Loan in Kukatpally Hyderabad | Credrace",
     description: "Home loan in Kukatpally, Hyderabad. Established area, rates from 8.25%.",

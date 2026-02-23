@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan amount based on salary hyderabad",
     "home loan eligibility salary hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-based-on-salary-hyderabad` },
   openGraph: {
     title: "Home Loan Based on Salary Hyderabad | Credrace",
     description: "Calculate home loan amount based on salary in Hyderabad. Instant eligibility estimate.",

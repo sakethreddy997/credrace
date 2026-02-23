@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "add co applicant home loan hyderabad",
     "co borrower home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/co-applicant-home-loan-hyderabad` },
   openGraph: {
     title: "Co-Applicant Home Loan Hyderabad | Credrace",
     description: "Co-applicant home loan in Hyderabad. Add co-applicant for higher loan amounts, better rates.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "land loan hyderabad",
     "home loan land purchase hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-land-purchase-hyderabad` },
   openGraph: {
     title: "Home Loan for Land Purchase Hyderabad | Credrace",
     description: "Home loan for land purchase in Hyderabad. Land purchase home loan eligibility, LTV norms.",

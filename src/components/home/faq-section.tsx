@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, MessageCircleQuestion, Mail } from "lucide-react";
 import Link from "next/link";
@@ -22,6 +23,18 @@ function fadeUp(delay: number = 0) {
 }
 
 export function FAQSection() {
+  // Scroll to this section when page loads or URL hash changes to #faq (navbar/footer link)
+  useEffect(() => {
+    const scrollToFaq = () => {
+      if (typeof window !== "undefined" && window.location.hash === "#faq") {
+        document.getElementById("faq")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+    scrollToFaq();
+    window.addEventListener("hashchange", scrollToFaq);
+    return () => window.removeEventListener("hashchange", scrollToFaq);
+  }, []);
+
   return (
     <section id="faq" className="py-24 sm:py-32 scroll-mt-20 bg-gray-50">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">

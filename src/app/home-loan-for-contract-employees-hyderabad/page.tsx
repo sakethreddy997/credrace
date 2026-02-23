@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "temporary employee home loan hyderabad",
     "contract worker home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-contract-employees-hyderabad` },
   openGraph: {
     title: "Home Loan for Contract Employees Hyderabad | Credrace",
     description: "Home loan for contract employees in Hyderabad. Flexible eligibility, contract-based income.",

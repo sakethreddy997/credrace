@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan foreclosure hyderabad",
     "home loan closure charges hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-foreclosure-charges-hyderabad` },
   openGraph: {
     title: "Home Loan Foreclosure Charges Hyderabad | Credrace",
     description: "Home loan foreclosure charges in Hyderabad. No charges on floating rate loans.",

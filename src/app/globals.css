@@ -193,6 +193,32 @@ h1, h2, h3, h4, h5, h6 {
   100% { opacity: 0; transform: translateY(100%); }
 }
 
+@keyframes spotlight {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes loader-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes war-room-blob-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.15; }
+  33% { transform: translate(30px, -40px) scale(1.1); opacity: 0.18; }
+  66% { transform: translate(-20px, 20px) scale(0.95); opacity: 0.12; }
+}
+
+@keyframes war-room-blob-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.15; }
+  33% { transform: translate(-25px, 25px) scale(1.05); opacity: 0.12; }
+  66% { transform: translate(20px, -30px) scale(1.08); opacity: 0.18; }
+}
+
+@keyframes war-room-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 /* ─── Utility Classes ────────────────────── */
 .animate-mesh { animation: mesh-move 20s ease-in-out infinite; }
 .animate-mesh-reverse { animation: mesh-move-reverse 25s ease-in-out infinite; }
@@ -204,6 +230,41 @@ h1, h2, h3, h4, h5, h6 {
 .animate-orbit { animation: orbit var(--orbit-speed, 20s) linear infinite; }
 .animate-ticker { animation: ticker 10s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
 .animate-beam { animation: beam 3s ease-in-out infinite; }
+.animate-spotlight { animation: spotlight 2s ease-out 0.5s forwards; }
+.animate-war-room-blob-1 { animation: war-room-blob-1 18s ease-in-out infinite; }
+.animate-war-room-blob-2 { animation: war-room-blob-2 22s ease-in-out infinite; }
+.animate-war-room-marquee { animation: war-room-marquee 25s linear infinite; }
+
+/* War Room range slider */
+.war-room-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #10b981;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.5);
+}
+.war-room-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #10b981;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.5);
+}
+
+/* Spline fallback: emerald spinner */
+.loader {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(16, 185, 129, 0.2);
+  border-top-color: #10b981;
+  border-radius: 50%;
+  animation: loader-spin 0.8s linear infinite;
+}
 
 /* ─── Gradients ──────────────────────────── */
 .gradient-text {

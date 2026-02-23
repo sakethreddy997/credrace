@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan manikonda rates",
     "manikonda home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/manikonda` },
   openGraph: {
     title: "Home Loan in Manikonda Hyderabad | Credrace",
     description: "Home loan in Manikonda, Hyderabad. Growing area, rates from 8.25%.",

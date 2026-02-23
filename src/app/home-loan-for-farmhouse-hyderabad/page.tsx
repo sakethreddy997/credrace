@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "farmhouse loan hyderabad",
     "home loan farmhouse hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-farmhouse-hyderabad` },
   openGraph: {
     title: "Home Loan for Farmhouse Hyderabad | Credrace",
     description: "Home loan for farmhouse in Hyderabad. Farmhouse home loan eligibility, LTV norms.",

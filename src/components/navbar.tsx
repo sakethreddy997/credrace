@@ -17,8 +17,9 @@ const loanLinks = [
 ];
 
 const navLinks = [
+  { label: "Why we exist", href: "/why-we-exist" },
   { label: "How it works", href: "/#how-it-works" },
-  { label: "FAQs", href: "/#faqs" },
+  { label: "FAQs", href: "/#faq" },
 ];
 
 export function Navbar() {
@@ -109,15 +110,26 @@ export function Navbar() {
             </AnimatePresence>
           </div>
 
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="px-3.5 py-2 text-[13px] font-medium rounded-lg text-white/60 hover:text-white hover:bg-white/[0.06] transition-all duration-200"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const isFaq = link.href === "/#faq";
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="px-3.5 py-2 text-[13px] font-medium rounded-lg text-white/60 hover:text-white hover:bg-white/[0.06] transition-all duration-200"
+                onClick={
+                  isFaq && pathname === "/"
+                    ? (e) => {
+                        e.preventDefault();
+                        document.getElementById("faq")?.scrollIntoView({ behavior: "smooth", block: "start" });
+                      }
+                    : undefined
+                }
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </div>
 
         {/* CTA */}
@@ -181,16 +193,25 @@ export function Navbar() {
 
               <div className="h-px bg-white/[0.06] my-2" />
 
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="block px-3 py-2.5 text-sm font-medium text-white/70 rounded-lg hover:bg-white/[0.06] hover:text-white"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              ))}
+              {navLinks.map((link) => {
+                const isFaq = link.href === "/#faq";
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="block px-3 py-2.5 text-sm font-medium text-white/70 rounded-lg hover:bg-white/[0.06] hover:text-white"
+                    onClick={(e) => {
+                      setMobileOpen(false);
+                      if (isFaq && pathname === "/") {
+                        e.preventDefault();
+                        document.getElementById("faq")?.scrollIntoView({ behavior: "smooth", block: "start" });
+                      }
+                    }}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
 
               <div className="pt-3 space-y-2">
                 <Button

@@ -1,13 +1,41 @@
+import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { Hero } from "@/components/home/hero";
-import { SocialProof } from "@/components/home/social-proof";
-import { WhyCredrace } from "@/components/home/why-credrace";
-import { LoanProducts } from "@/components/home/loan-products";
-import { HowItWorks } from "@/components/home/how-it-works";
-import { Testimonials } from "@/components/home/testimonials";
-import { FAQSection } from "@/components/home/faq-section";
-import { CTABanner } from "@/components/home/cta-banner";
 import { FAQSchema, WebPageSchema } from "@/components/json-ld";
-import { HOME_FAQS } from "@/lib/constants";
+import { HOME_FAQS, SITE_URL } from "@/lib/constants";
+
+const WhyCredrace = dynamic(
+  () => import("@/components/home/why-credrace").then((m) => ({ default: m.WhyCredrace })),
+  { ssr: true }
+);
+const LoanProducts = dynamic(
+  () => import("@/components/home/loan-products").then((m) => ({ default: m.LoanProducts })),
+  { ssr: true }
+);
+const HowItWorks = dynamic(
+  () => import("@/components/home/how-it-works").then((m) => ({ default: m.HowItWorks })),
+  { ssr: true }
+);
+const SocialProof = dynamic(
+  () => import("@/components/home/social-proof").then((m) => ({ default: m.SocialProof })),
+  { ssr: true }
+);
+const Testimonials = dynamic(
+  () => import("@/components/home/testimonials").then((m) => ({ default: m.Testimonials })),
+  { ssr: true }
+);
+const FAQSection = dynamic(
+  () => import("@/components/home/faq-section").then((m) => ({ default: m.FAQSection })),
+  { ssr: true }
+);
+const CTABanner = dynamic(
+  () => import("@/components/home/cta-banner").then((m) => ({ default: m.CTABanner })),
+  { ssr: true }
+);
+
+export const metadata: Metadata = {
+  alternates: { canonical: SITE_URL },
+};
 
 export default function HomePage() {
   return (

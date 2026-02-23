@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "villa loan hyderabad",
     "home loan villa hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-villa-hyderabad` },
   openGraph: {
     title: "Home Loan for Villa Hyderabad | Credrace",
     description: "Home Loan for Villa in Hyderabad. Villa home loan eligibility, LTV norms, documentation.",

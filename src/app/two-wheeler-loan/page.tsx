@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { ProductPageTemplate } from "@/components/product/product-page-template";
-import { FAQSchema, WebPageSchema } from "@/components/json-ld";
+import { BreadcrumbSchema, FAQSchema, LoanOrCreditSchema, WebPageSchema } from "@/components/json-ld";
 import type { ProductPageData } from "@/components/product/product-page-template";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Two-Wheeler Loan at Low EMIs | 100% Funding | Credrace",
   description:
     "Get a two-wheeler loan with EMIs starting ₹999. Interest rates from 7.99%, up to 100% on-road funding. Compare offers from top lenders on Credrace.",
+  alternates: { canonical: `${SITE_URL}/two-wheeler-loan` },
   openGraph: {
     title: "Two-Wheeler Loan at Low EMIs | Credrace",
     description:
@@ -96,6 +98,21 @@ const twoWheelerData: ProductPageData = {
 export default function TwoWheelerLoanPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Two-Wheeler Loan", url: "/two-wheeler-loan" },
+        ]}
+      />
+      <LoanOrCreditSchema
+        name="Two-Wheeler Loan"
+        description="Finance your bike or scooter at EMIs from ₹999. Rates from 7.99%, up to 100% funding."
+        url="/two-wheeler-loan"
+        amount={500000}
+        interestRate={7.99}
+        loanTermValue={5}
+        loanTermUnit="years"
+      />
       <WebPageSchema
         title="Two-Wheeler Loan at Low EMIs | Quick Approval"
         description="Finance your bike or scooter at EMIs from ₹999. Rates from 7.99%."

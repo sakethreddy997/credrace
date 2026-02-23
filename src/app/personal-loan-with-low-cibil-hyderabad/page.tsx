@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "personal loan cibil 600 hyderabad",
     "personal loan bad credit score hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/personal-loan-with-low-cibil-hyderabad` },
   openGraph: {
     title: "Personal Loan with Low CIBIL Hyderabad | Credrace",
     description: "Personal loan with low CIBIL in Hyderabad. Get personal loan with CIBIL 600-700.",

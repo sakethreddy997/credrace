@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "refinance home loan hyderabad",
     "home loan refinance rates hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-refinancing-hyderabad` },
   openGraph: {
     title: "Home Loan Refinancing Hyderabad | Credrace",
     description: "Refinance home loan in Hyderabad. Get lower rates, save lakhs. Compare 30+ banks.",

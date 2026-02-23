@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "duplex house loan hyderabad",
     "home loan duplex hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-duplex-house-hyderabad` },
   openGraph: {
     title: "Home Loan for Duplex House Hyderabad | Credrace",
     description: "Home loan for duplex house in Hyderabad. Duplex home loan eligibility, LTV norms.",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "second hand property home loan hyderabad",
     "resale property loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-resale-property-hyderabad` },
   openGraph: {
     title: "Home Loan for Resale Property Hyderabad | Credrace",
     description: "Home loan for resale property in Hyderabad. Property age limits, valuation, documentation.",

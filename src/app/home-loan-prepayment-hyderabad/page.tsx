@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan prepayment charges hyderabad",
     "prepay home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-prepayment-hyderabad` },
   openGraph: {
     title: "Home Loan Prepayment Hyderabad | Credrace",
     description: "Prepay home loan in Hyderabad. Save lakhs on interest. No charges on floating rate.",

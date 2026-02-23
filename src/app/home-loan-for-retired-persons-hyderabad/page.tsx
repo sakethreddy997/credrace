@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "pension home loan hyderabad",
     "retired person home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-retired-persons-hyderabad` },
   openGraph: {
     title: "Home Loan for Retired Persons Hyderabad | Credrace",
     description: "Home loan for retired persons in Hyderabad. Pension-based income, shorter tenure, flexible eligibility.",

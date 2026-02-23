@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "axis home loan rates hyderabad",
     "axis home loan interest rate hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/axis-home-loan-hyderabad` },
   openGraph: {
     title: "Axis Bank Home Loan in Hyderabad | Credrace",
     description: "Axis Bank home loan in Hyderabad. Rates from 8.40%, up to ₹5 Cr. Compare with other banks.",

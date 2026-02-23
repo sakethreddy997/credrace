@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Dialog,
@@ -27,6 +27,7 @@ const LOAN_OPTIONS = [
 ] as const;
 
 export function ConnectModal({ children }: { children: React.ReactNode }) {
+  const [mounted, setMounted] = useState(false);
   const [open, setOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -87,6 +88,14 @@ export function ConnectModal({ children }: { children: React.ReactNode }) {
       }, 300);
     }
   };
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <>{children}</>;
+  }
 
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan stage disbursement hyderabad",
     "construction loan stages hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/construction-stage-wise-home-loan-hyderabad` },
   openGraph: {
     title: "Construction Stage-wise Home Loan Hyderabad | Credrace",
     description: "Construction stage-wise home loan in Hyderabad. Stage-wise disbursement schedule.",
@@ -154,9 +155,10 @@ const pageData = {
         </div>
       </div>
 
-      <!-- Interest Calculation -->
+      <!-- Interest During Construction -->
       <div class="rounded-xl border border-gray-200 bg-white p-6">
-        <h3 class="text-xl font-extrabold text-gray-900 mb-4">Interest Payment During Construction</h3>
+        <h2 class="text-2xl font-extrabold text-gray-900 mb-4">Interest During Construction</h2>
+        <h3 class="text-lg font-bold text-gray-900 mb-4">Interest Payment During Construction</h3>
         <div class="space-y-4">
           <div class="p-4 bg-emerald-50 rounded-lg">
             <p class="text-sm font-bold text-gray-900 mb-2">Key Point: Interest Only on Disbursed Amount</p>

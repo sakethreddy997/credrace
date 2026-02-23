@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan kondapur rates",
     "kondapur home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/kondapur` },
   openGraph: {
     title: "Home Loan in Kondapur Hyderabad | Credrace",
     description: "Home loan in Kondapur, Hyderabad. IT hub, rates from 8.25%.",

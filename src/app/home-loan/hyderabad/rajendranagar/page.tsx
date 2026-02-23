@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan rajendranagar rates",
     "rajendranagar home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/rajendranagar` },
   openGraph: {
     title: "Home Loan in Rajendranagar Hyderabad | Credrace",
     description: "Home loan in Rajendranagar, Hyderabad. Established area, rates from 8.25%.",

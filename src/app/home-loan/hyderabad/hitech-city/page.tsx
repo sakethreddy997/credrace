@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan hitech city rates",
     "hitech city home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/hitech-city` },
   openGraph: {
     title: "Home Loan in Hitech City Hyderabad | Credrace",
     description: "Home loan in Hitech City, Hyderabad. Rates from 8.25%, compare 30+ banks.",

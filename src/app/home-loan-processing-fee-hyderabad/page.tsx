@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan fees hyderabad",
     "home loan charges hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-processing-fee-hyderabad` },
   openGraph: {
     title: "Home Loan Processing Fee Hyderabad | Credrace",
     description: "Home loan processing fee in Hyderabad. Learn how to reduce charges. Compare 30+ banks.",

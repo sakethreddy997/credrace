@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan banjara hills rates",
     "banjara hills home loan",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan/hyderabad/banjara-hills` },
   openGraph: {
     title: "Home Loan in Banjara Hills Hyderabad | Credrace",
     description: "Home loan in Banjara Hills, Hyderabad. Premium area, rates from 8.25%.",

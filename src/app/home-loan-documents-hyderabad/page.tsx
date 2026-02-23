@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan documents checklist hyderabad",
     "home loan documents for salaried hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-documents-hyderabad` },
   openGraph: {
     title: "Home Loan Documents Required in Hyderabad | Credrace",
     description: "Complete list of documents required for home loan in Hyderabad. Download checklist.",

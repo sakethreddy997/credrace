@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "commercial property loan hyderabad",
     "home loan commercial property hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-commercial-property-hyderabad` },
   openGraph: {
     title: "Home Loan for Commercial Property Hyderabad | Credrace",
     description: "Home loan for commercial property in Hyderabad. Commercial property loan eligibility, LTV norms.",

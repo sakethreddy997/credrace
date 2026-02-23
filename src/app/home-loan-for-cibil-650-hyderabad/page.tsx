@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan credit score 650 hyderabad",
     "cibil 650 home loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-for-cibil-650-hyderabad` },
   openGraph: {
     title: "Home Loan for CIBIL 650 Hyderabad | Credrace",
     description: "Home loan for CIBIL 650 in Hyderabad. Get home loan with CIBIL score 650.",

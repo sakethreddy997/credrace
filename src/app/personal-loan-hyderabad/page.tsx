@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "best personal loan rates hyderabad",
     "quick personal loan hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/personal-loan-hyderabad` },
   openGraph: {
     title: "Personal Loan in Hyderabad | Instant Approval | Credrace",
     description: "Personal loan in Hyderabad. Rates from 10.25%, up to ₹40 Lakh, quick disbursal.",

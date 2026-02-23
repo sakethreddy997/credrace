@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan rejection causes hyderabad",
     "home loan application rejected hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-rejection-reasons-hyderabad` },
   openGraph: {
     title: "Home Loan Rejection Reasons Hyderabad | Credrace",
     description: "Home loan rejection reasons in Hyderabad. Common reasons and how to fix.",

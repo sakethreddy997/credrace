@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "home loan low credit score hyderabad",
     "home loan cibil 600 hyderabad",
   ],
+  alternates: { canonical: `${SITE_URL}/home-loan-low-cibil-hyderabad` },
   openGraph: {
     title: "Home Loan with Low CIBIL Score Hyderabad | Credrace",
     description: "Home loan in Hyderabad with low CIBIL score. Options available. Compare lenders.",
