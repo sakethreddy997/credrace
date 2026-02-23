@@ -146,7 +146,7 @@ export function Navbar() {
           <Button
             asChild
             size="sm"
-            className="bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-5 h-9 rounded-full text-[13px] shadow-[0_0_20px_rgba(16,185,129,0.25)] hover:shadow-[0_0_30px_rgba(16,185,129,0.35)] transition-all duration-300"
+            className="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-5 h-9 rounded-full text-[13px] shadow-[0_0_20px_rgba(5,150,105,0.3)] hover:shadow-[0_0_30px_rgba(16,185,129,0.35)] transition-all duration-300"
           >
             <Link href="/eligibility">
               Check Eligibility
@@ -216,7 +216,7 @@ export function Navbar() {
               <div className="pt-3 space-y-2">
                 <Button
                   asChild
-                  className="w-full bg-emerald-500 hover:bg-emerald-400 text-white font-semibold h-11 rounded-xl text-sm shadow-[0_0_20px_rgba(16,185,129,0.25)]"
+                  className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold h-11 rounded-xl text-sm shadow-[0_0_20px_rgba(5,150,105,0.3)]"
                 >
                   <Link href="/eligibility" onClick={() => setMobileOpen(false)}>
                     Check Eligibility

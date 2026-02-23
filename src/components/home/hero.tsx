@@ -140,26 +140,8 @@ export function Hero() {
       >
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* ═══════════════ Left: Copy (7 cols) ═══════════════ */}
-          <motion.div
-            className="lg:col-span-7"
-            variants={stagger}
-            initial="hidden"
-            animate="show"
-          >
-            {/* Badge */}
-            <motion.div variants={fadeUp} className="mb-8">
-              <div className="inline-flex items-center gap-2.5 rounded-full bg-emerald-500/[0.08] border border-emerald-500/15 px-4 py-2">
-                <div className="relative h-2 w-2">
-                  <div className="absolute inset-0 rounded-full bg-emerald-400 animate-ping opacity-60" />
-                  <div className="relative h-2 w-2 rounded-full bg-emerald-400" />
-                </div>
-                <span className="text-xs font-semibold text-emerald-400/90 tracking-wide">
-                  Trusted by 10,000+ borrowers across India
-                </span>
-              </div>
-            </motion.div>
-
-            {/* Headline — static for LCP (no animation delay) */}
+          <div className="lg:col-span-7">
+            {/* Headline + subline — outside motion for LCP; no animation delay */}
             <h1 className="text-[2.75rem] sm:text-[3.5rem] lg:text-[4.25rem] font-extrabold leading-[1.05] tracking-[-0.035em]">
               <span className="text-white">Your loan.</span>
               <br />
@@ -171,12 +153,28 @@ export function Hero() {
               <br />
               <span className="text-white/90">for the best offer.</span>
             </h1>
-
-            {/* Subline — static for LCP */}
             <p className="mt-6 text-lg sm:text-xl text-white/45 leading-relaxed max-w-lg font-normal">
               One application. Personalised offers from HDFC, SBI, ICICI and
               27 more. Pick the lowest rate. We handle everything else.
             </p>
+
+            <motion.div
+              variants={stagger}
+              initial="hidden"
+              animate="show"
+            >
+              {/* Badge */}
+              <motion.div variants={fadeUp} className="mb-8">
+                <div className="inline-flex items-center gap-2.5 rounded-full bg-emerald-500/[0.08] border border-emerald-500/15 px-4 py-2">
+                  <div className="relative h-2 w-2">
+                    <div className="absolute inset-0 rounded-full bg-emerald-400 animate-ping opacity-60" />
+                    <div className="relative h-2 w-2 rounded-full bg-emerald-400" />
+                  </div>
+                  <span className="text-xs font-semibold text-emerald-400/90 tracking-wide">
+                    Trusted by 10,000+ borrowers across India
+                  </span>
+                </div>
+              </motion.div>
 
             {/* CTA Row */}
             <motion.div
@@ -186,7 +184,7 @@ export function Hero() {
               <Button
                 asChild
                 size="lg"
-                className="relative bg-emerald-500 hover:bg-emerald-400 text-white font-bold text-[15px] px-8 h-14 rounded-2xl shadow-[0_0_40px_rgba(16,185,129,0.3)] hover:shadow-[0_0_60px_rgba(16,185,129,0.4)] transition-all duration-300 group overflow-hidden"
+                className="relative bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[15px] px-8 h-14 rounded-2xl shadow-[0_0_40px_rgba(5,150,105,0.35)] hover:shadow-[0_0_60px_rgba(16,185,129,0.4)] transition-all duration-300 group overflow-hidden"
               >
                 <Link href="/eligibility">
                   <span className="relative z-10 flex items-center gap-2">
@@ -220,7 +218,7 @@ export function Hero() {
             {/* Trust strip */}
             <motion.div
               variants={fadeUp}
-              className="mt-12 flex flex-wrap items-center gap-6 text-[13px] text-white/35 font-medium"
+              className="mt-12 flex flex-wrap items-center gap-6 text-[13px] text-white/70 font-medium"
             >
               {[
                 { icon: Shield, label: "256-bit encrypted" },
@@ -234,6 +232,7 @@ export function Hero() {
               ))}
             </motion.div>
           </motion.div>
+          </div>
 
           {/* ═══════════════ Right: Offer Card (5 cols) ═══════════════ */}
           <motion.div

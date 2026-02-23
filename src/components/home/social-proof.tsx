@@ -48,7 +48,7 @@ const stats = [
   },
 ];
 
-/* ─── Lenders (8 for smaller DOM; marquee still duplicates for seamless loop) ─── */
+/* ─── Lenders (max 10 for DOM; marquee duplicates once for seamless loop) ─── */
 const lenders = [
   "SBI",
   "HDFC Bank",
@@ -58,6 +58,8 @@ const lenders = [
   "Bajaj Finserv",
   "Tata Capital",
   "LIC HFL",
+  "PNB",
+  "Bank of Baroda",
 ];
 
 /* ─── Animated counter ─── */
@@ -205,7 +207,7 @@ export function SocialProof() {
               <div className="absolute left-0 top-0 bottom-0 w-20 sm:w-28 bg-gradient-to-r from-[#0c1a2e] to-transparent z-10 pointer-events-none" />
               <div className="absolute right-0 top-0 bottom-0 w-20 sm:w-28 bg-gradient-to-l from-[#0c1a2e] to-transparent z-10 pointer-events-none" />
 
-              <div className="flex gap-4 animate-marquee w-max">
+              <div className="flex gap-4 animate-marquee w-max will-change-transform">
                 {[...lenders, ...lenders].map((name, i) => (
                   <div
                     key={i}

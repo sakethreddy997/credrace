@@ -46,7 +46,7 @@ export function Footer() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="flex items-center gap-1.5 text-white/40"
+                  className="flex items-center gap-1.5 text-white/70"
                 >
                   <item.icon className="h-3 w-3" />
                   <span className="text-[11px] font-medium">{item.label}</span>
@@ -152,12 +152,12 @@ export function Footer() {
         {/* ─── Bottom bar ─── */}
         <div className="border-t border-white/[0.06] py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-white/40 text-center sm:text-left">
+            <p className="text-xs text-white/60 text-center sm:text-left">
               &copy; {new Date().getFullYear()} {SITE_NAME}. All rights
               reserved. {SITE_NAME} is a loan marketplace and does not lend
               directly.
             </p>
-            <p className="text-[11px] text-white/30 text-center sm:text-right max-w-sm">
+            <p className="text-[11px] text-white/55 text-center sm:text-right max-w-sm">
               Loan approval, amounts, and interest rates are subject to the
               lending partner&apos;s policies and borrower eligibility.
             </p>
